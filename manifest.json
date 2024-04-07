@@ -1,0 +1,17 @@
+{
+    "name": "Daily Boost",
+    "version": "1.0.0",
+    "description": "Recieve motivational quotes every day and make your day",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "128": "icon.png"
+    },
+    "author": "Parisa Talebi",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "DailyBoost"
+    }
+}
