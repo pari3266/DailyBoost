@@ -1,5 +1,10 @@
 # DailyBoost
  
+ DailyBoost is an extension for google chrome , that I created.
+ It send a request to openAi API for get a motivational quote every day.
+
+* Recieve motivational quotes every day and make your day *
+
 links :
 
 https://www.freecodecamp.org/news/building-chrome-extension/
