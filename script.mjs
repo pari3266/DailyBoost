@@ -1,7 +1,10 @@
 import OpenAI from "openai";
 const openai = new OpenAI({
-  apiKey: 'Your_API_KEY',
+  apiKey: 'your_API_KEY',
 });
+
+// set a timer to fetch and update the quote every 24 hours.(86400000 milliseconds)
+setInterval(main() , 86400000);
 
 async function main() {
   const completion = await openai.chat.completions.create({
@@ -15,4 +18,3 @@ async function main() {
   console.log('text', completion.choices[0]);
   document.getElementById("text").innerHTML = completion.choices[0];
 }
-main();
