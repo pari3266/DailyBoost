@@ -1,6 +1,6 @@
 {
     "name": "Daily Boost",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Recieve motivational quotes every day and make your day",
     "manifest_version": 3,
     "permissions": [
