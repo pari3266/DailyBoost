@@ -1,7 +1,7 @@
 main()
 async function main() {
   const baseUrl = 'https://api.avalai.ir/v1/chat/completions';
-  const apiKey = 'aa-zk7aduIZaTbVZnYVowHz8m4qlcTjgHAJKJaYq9fcbEePR8rD';
+  const apiKey = 'YOUR_APIKEY';
   const messages = [
     { role: 'system', content: 'Get me a new motivational quote for today ' },
   ];
